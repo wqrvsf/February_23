@@ -1,0 +1,32 @@
+* { 
+    box-sizing: border-box;
+}
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: url(february.jpg);
+}
+
+.blockk {
+    width: 380px;
+    height: 280px;
+    background-color: rgba(60, 88, 15, 0.8);
+    padding-left: 38px;
+    padding-top: 40px;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.block {
+    display: flex;
+}
+
+.block__text {
+    color: white;
+    font-size: 18px;
+}
